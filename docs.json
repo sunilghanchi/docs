@@ -81,7 +81,7 @@
         },
         {
           "anchor": "Support",
-          "href": "mailto:support@biznomate.com",
+          "href": "mailto:info@biznomate.com",
           "icon": "headset"
         },
         {
@@ -104,13 +104,13 @@
       },
       {
         "label": "Support",
-        "href": "mailto:support@biznomate.com"
+        "href": "mailto:info@biznomate.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "https://app.biznomate.com/signup"
+      "href": "https://app.biznomate.com/login"
     }
   },
   "footer": {
