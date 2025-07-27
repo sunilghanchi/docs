@@ -1,80 +1,138 @@
 ---
-title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+title: "Quickstart Guide"
+description: "Get started with Biznomate in 3 simple steps"
 ---
 
-## Get started in three steps
+## Welcome to Biznomate!
 
-Get your documentation site running locally and make your first customization.
+This guide will walk you through setting up your first AI-powered campaign in just 3 steps. By the end, you'll have imported your leads, created your first campaign, and started generating results.
 
-### Step 1: Set up your local environment
+## Step 1: Create Your Account
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
+### Sign Up
+1. Visit [app.biznomate.com/signup](https://app.biznomate.com/signup)
+2. Enter your business email and create a password
+3. Choose your plan (Start with our 14-day free trial)
+4. Complete your company profile
 
-### Step 2: Deploy your changes
+### Initial Setup
+- **Workspace Name**: Choose a name for your team workspace
+- **Industry**: Select your industry for better AI recommendations
+- **Team Size**: Help us optimize your experience
+- **Sales Process**: Tell us about your typical sales cycle
 
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
-
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
-
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
-
-### Step 3: Go live
-
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
-
-## Next steps
-
-Now that you have your docs running, explore these key features:
-
-<CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
+<Card
+  title="Account Setup Guide"
+  icon="user-plus"
+  href="/setup/account-setup"
+>
+  Detailed account configuration instructions.
 </Card>
 
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
+## Step 2: Import Your Leads
+
+### Prepare Your Data
+Biznomate accepts leads in CSV format. Your file should include:
+- **Email** (required)
+- **First Name** (recommended)
+- **Last Name** (recommended)
+- **Company** (recommended)
+- **Job Title** (recommended)
+- **Phone** (optional)
+- **Custom Fields** (optional)
+
+### Import Process
+1. Navigate to **Leads** → **Import**
+2. Upload your CSV file
+3. Map your columns to Biznomate fields
+4. Review and confirm your data
+5. AI will automatically score your leads
+
+<Card
+  title="Data Import Guide"
+  icon="upload"
+  href="/setup/data-import"
+>
+  Learn about data formatting and import best practices.
 </Card>
 
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
+## Step 3: Create Your First Campaign
+
+### Campaign Setup
+1. Go to **Campaigns** → **Create New**
+2. Select your target audience (imported leads)
+3. Choose a campaign template or create custom
+4. Configure your email sequence
+
+### Email Sequence Configuration
+- **Subject Lines**: AI will suggest optimized subject lines
+- **Email Content**: Use our templates or write custom content
+- **Follow-up Schedule**: Set timing for automated follow-ups
+- **Personalization**: Add dynamic fields for personalization
+
+### Launch Your Campaign
+1. Review your campaign settings
+2. Send a test email to yourself
+3. Schedule your campaign
+4. Monitor performance in real-time
+
+<Card
+  title="Campaign Creation Guide"
+  icon="envelope-open"
+  href="/campaigns/creating-campaigns"
+>
+  Detailed campaign setup and optimization tips.
 </Card>
 
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
+## What Happens Next?
+
+### AI Lead Scoring
+- Biznomate's AI analyzes your leads and assigns scores
+- High-scoring leads are prioritized for outreach
+- Scores update based on engagement and responses
+
+### Automated Follow-ups
+- Your campaign automatically sends follow-up emails
+- Timing is optimized based on recipient behavior
+- Sequences adapt to engagement patterns
+
+### Performance Tracking
+- Monitor opens, clicks, and replies in real-time
+- Track conversion rates and ROI
+- Optimize campaigns based on data insights
+
+## Best Practices
+
+### Lead Quality
+- Import clean, verified email addresses
+- Include company and job title information
+- Segment leads by industry or company size
+
+### Email Content
+- Keep subject lines under 50 characters
+- Write personalized, value-focused content
+- Include clear call-to-actions
+- Test different approaches with A/B testing
+
+### Campaign Management
+- Start with smaller lists to test
+- Monitor and adjust based on performance
+- Use AI recommendations for optimization
+
+## Need Help?
+
+<Card
+  title="Contact Support"
+  icon="headset"
+  href="/support/contact"
+>
+  Our team is here to help you succeed.
 </Card>
 
-</CardGroup>
-
-<Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
-</Note>
+<Card
+  title="Video Tutorials"
+  icon="play"
+  href="https://biznomate.com/tutorials"
+>
+  Watch step-by-step video guides.
+</Card>
